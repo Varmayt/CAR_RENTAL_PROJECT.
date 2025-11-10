@@ -1,9 +1,9 @@
 import java.sql.*;
 import java.util.Scanner;
 public class CarRentalSystem {
-    private static final String URL = "jdbc:postgresql://localhost:5433/CarRental";
+    private static final String URL = "jdbc:postgresql://localhost:5433/CarRental";// it's mine the port is diff to others
     private static final String USER = "postgres";
-    private static final String PASSWORD = "Varma@123";
+    private static final String PASSWORD = "Varma@123";//it's mine change what you put in db password
     private Connection conn;
     public CarRentalSystem() {
         try {
