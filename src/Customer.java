@@ -1,15 +1,15 @@
 public class Customer {
-    private String customerId;
+    private int customerId;
     private String name;
     private long phoneNumber;
     private long adharCard;
-    public Customer(String customerId, String name, long phoneNumber, long adharCard) {
+    public Customer(int customerId, String name, long phoneNumber, long adharCard) {
         this.customerId = customerId;
         this.name = name;
         this.phoneNumber = phoneNumber;
         this.adharCard = adharCard;
     }
-    public String getCustomerId() {
+    public int getCustomerId() {
         return customerId;
     }
     public String getName() {
@@ -22,4 +22,3 @@ public class Customer {
         return adharCard;
     }
 }
-
