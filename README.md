@@ -23,7 +23,7 @@ Download this file directly (it supports PostgreSQL 18):
 ----downloaD LINK -> https://repo1.maven.org/maven2/org/postgresql/postgresql/42.7.4/postgresql-42.7.4.jar
 
 Once downloaded, go to IntelliJ and:
-Right-click your project name (Main) → Open Module Settings and select Modules → Dependencies → + (Add) → JARs or directories and Browse to the downloaded postgresql-42.7.4.jar file → click Apply → OK
+Right-click your project name (Main) -> Open Module Settings and select Modules -> Dependencies -> + (Add) -> JARs or directories and Browse to the downloaded postgresql-42.7.4.jar file -> click Apply -> OK
 You’ll now see the JAR listed under External Libraries (like your JDK ones).
 
 ##  How to Run
